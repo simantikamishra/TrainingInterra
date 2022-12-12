@@ -10,6 +10,7 @@ public class MyClass {
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\simantikam\\eclipse-workspace\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.myntra.com");
+		System.out.println("Branch MyBranch");
 		
 
 	}
